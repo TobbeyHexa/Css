@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Banner</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div></div>
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="container">
+            <h2 class="head">Enjoy a Seamless Transaction</h2>
+            <p class="paragraph">
+              Try out a faster payment method not limited by time or location
+              <br />
+              You can make the payment from anywhere in the world at any time.
+            </p>
+            <button class="button">Learn More</button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="container1">
+            <h2 class="head">Your N0_ 1 Online Payment Platform</h2>
+            <p class="paragraph">
+              Try out a faster payment method not limited by time or location
+              <br />
+              You can make the payment from anywhere in the world at any time.
+            </p>
+            <button class="button">Learn More</button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="container2">
+            <h2 class="head">Instant Pay For Utilities Billz</h2>
+            <p class="paragraph">
+              Try out a faster payment method not limited by time or location
+              <br />
+              You can make the payment from anywhere in the world at any time.
+            </p>
+            <button class="button">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <div class="swiper-scrollbar"></div>
+    </div>
+
+    <div class="section">
+      <div class="left">
+        <h4>App Development</h4>
+        <p>
+          lorem ipsum dolor lore lorem ipsum dolor d lorem ipsum dolor loren
+          lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor
+        </p>
+      </div>
+
+      <div class="right">
+        <h4>App Development</h4>
+        <p>
+          lorem ipsum dolor lore lorem ipsum dolor d lorem ipsum dolor loren
+          lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor
+        </p>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        loop: true,
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

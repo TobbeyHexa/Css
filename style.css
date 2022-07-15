@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image:linear-gradient(rgba(43, 39, 39, 0.13),rgba(45, 19, 87, 0.979)),url(./images/tax.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    border-radius: 2px;
+}
+.container1{
+    background-image:linear-gradient(rgba(43, 39, 39, 0.13),rgba(45, 19, 87, 0.979)),url(./images/online.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    border-radius: 2px;
+}
+.container2{
+    background-image:linear-gradient(rgba(43, 39, 39, 0.13),rgba(45, 19, 87, 0.979)),url(./images/android.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    border-radius: 2px;
+}
+
+.head{
+   width: 100%;
+   color:white;
+   height: auto;
+   padding-left: 150px ;
+   padding-top: 300px;
+   font-size: 60px;
+
+}
+.paragraph{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 150px ;
+}
+
+.button{
+    width: 100px;
+    height:34px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-left: 150px ;
+    color: rgb(216, 59, 59);
+    margin-top:10px;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+
+}
+
+.button:hover, button:active{
+    background-color:rgb(216, 59, 59);
+    color:white;
+    box-shadow:20px 20px rgba(gray);
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+
+}
+
+
+
+.swiper .swiper-button-next,.swiper-button-prev{ 
+    color:rgba(108, 67, 204, 0.432);
+}
+.swiper .swiper-pagination-bullet-active{
+    background:rgba(52, 27, 196, 0.479);
+}
+
+.swiper1{
+    width: 100%;
+    height:fit-content;
+    padding:20px 0px 20px 0px;
+}
+.swiper-slide1{
+    width:100%;
+}

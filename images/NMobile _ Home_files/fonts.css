@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Zona Pro';
+    src: url('ZonaPro-SemiBoldItalic.eot');
+    src: url('ZonaPro-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ZonaPro-SemiBoldItalic.woff2') format('woff2'),
+        url('ZonaPro-SemiBoldItalic.woff') format('woff'),
+        url('ZonaPro-SemiBoldItalic.ttf') format('truetype'),
+        url('ZonaPro-SemiBoldItalic.svg#ZonaPro-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Zona Pro';
+    src: url('ZonaPro-Bold.eot');
+    src: url('ZonaPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ZonaPro-Bold.woff2') format('woff2'),
+        url('ZonaPro-Bold.woff') format('woff'),
+        url('ZonaPro-Bold.ttf') format('truetype'),
+        url('ZonaPro-Bold.svg#ZonaPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zona Pro';
+    src: url('ZonaPro-BoldItalic.eot');
+    src: url('ZonaPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ZonaPro-BoldItalic.woff2') format('woff2'),
+        url('ZonaPro-BoldItalic.woff') format('woff'),
+        url('ZonaPro-BoldItalic.ttf') format('truetype'),
+        url('ZonaPro-BoldItalic.svg#ZonaPro-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Zona Pro';
+    src: url('ZonaPro-Black.eot');
+    src: url('ZonaPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('ZonaPro-Black.woff2') format('woff2'),
+        url('ZonaPro-Black.woff') format('woff'),
+        url('ZonaPro-Black.ttf') format('truetype'),
+        url('ZonaPro-Black.svg#ZonaPro-Black') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zona Pro';
+    src: url('ZonaPro-BlackItalic.eot');
+    src: url('ZonaPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('ZonaPro-BlackItalic.woff2') format('woff2'),
+        url('ZonaPro-BlackItalic.woff') format('woff'),
+        url('ZonaPro-BlackItalic.ttf') format('truetype'),
+        url('ZonaPro-BlackItalic.svg#ZonaPro-BlackItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Zona Pro';
+    src: url('ZonaPro-Thin.eot');
+    src: url('ZonaPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('ZonaPro-Thin.woff2') format('woff2'),
+        url('ZonaPro-Thin.woff') format('woff'),
+        url('ZonaPro-Thin.ttf') format('truetype'),
+        url('ZonaPro-Thin.svg#ZonaPro-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zona Pro';
+    src: url('ZonaPro-SemiBold.eot');
+    src: url('ZonaPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('ZonaPro-SemiBold.woff2') format('woff2'),
+        url('ZonaPro-SemiBold.woff') format('woff'),
+        url('ZonaPro-SemiBold.ttf') format('truetype'),
+        url('ZonaPro-SemiBold.svg#ZonaPro-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}

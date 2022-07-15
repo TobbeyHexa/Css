@@ -1,0 +1,31 @@
+ $('.goToTab').click(function(e) {
+    e.preventDefault();
+    var position = $(this).attr('pos');
+    $('#nav-tab li:nth-child(' + position + ') a').tab('show');
+
+    var curTab = $(this).attr('tab');
+    if (curTab == 'geofence') {
+      $('#nav-tab li:not(:first-child)').removeClass('current');
+    } else if (curTab == 'asset') {
+      $('#nav-tab li:nth-child(2)').addClass('current');
+      $('#nav-tab li:nth-child(3)').removeClass('current');
+    } else{
+      $('#nav-tab li').addClass('current');
+    }
+  });
+
+  var $curr = $('li.current');
+  $('.v-nav').click(function() {
+    $(this)
+      .parent('li')
+      .addClass('current');
+    $(this)
+      .parent('li')
+      .prev()
+      .addClass('current');
+    $(this)
+      .parent('li')
+      .nextAll()
+      .removeClass('current');
+    $curr = $curr.next();
+  });
